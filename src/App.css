@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./futurethingbg.png");
+  background-size: cover;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+a:hover {
+  color: #eb5757;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+  padding: 80px;
+  /* margin: auto; */
+}
+
+footer {
+  flex: 1 0 auto;
+  z-index: 10;
+}
+
+/* Typography */
+* H1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: left;
+  color: #fff;
+}
+
+/* Content Display*/
+.section {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  /* background: aqua; */
+}
+
+.contentLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 24px;
+}
+
+.contentCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contentRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 24px;
+}
+
+.spacing-md {
+  height: 64px;
+}
+
+/* Prompt UI */
+
+.promptBar {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: 2px solid white;
+  border-bottom: 0px;
+}
+
+.promptTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 8px 16px 8px 16px;
+}
+
+.promptShuffle {
+  border-left: 2px solid white;
+  padding: 8px 16px 8px 16px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.promptShuffle:hover {
+  background: #594cec;
+}
+
+.promptBox {
+  width: 700px;
+  border: 2px solid white;
+  padding: 16px;
+}
+
+.prompttext {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fff;
+}
+
+.prompttext span {
+  text-decoration: underline solid #eb5757;
+}
+
+/* Footer */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.ft-left {
+  /* display: flex;
+  flex-direction: row; */
+  max-width: 420px;
+}
+
+.ft-left ol {
+  padding-left: 32px;
+}
+
+.ft-right {
+  display: flex;
+  flex-direction: row;
+  max-width: 420px;
+}
