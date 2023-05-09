@@ -6,7 +6,7 @@ function Content() {
   return (
     <section className="content">
       <div className="section contentLeft">
-        <h1>Welcome ~</h1>
+        <h1>future prompts</h1>
       </div>
 
       <div className="section contentCenter">
@@ -14,7 +14,7 @@ function Content() {
       </div>
 
       <div className="section contentRight">
-        <h1> What does it look like?</h1>
+        <h2> What does it look like?</h2>
       </div>
     </section>
   );

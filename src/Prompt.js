@@ -31,7 +31,7 @@ class Prompt extends React.Component {
     return (
       <section>
         <div className="promptBar">
-          <div className="promptTitle">Future Prompt</div>
+          <div className="promptTitle"> Welcome to 2030</div>
           <div className="promptShuffle" onClick={this.futureThings}>
             Shuffle ↺
           </div>

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://use.typekit.net/kci4kcs.css");
 
 * {
   box-sizing: border-box;
@@ -12,9 +11,9 @@ body {
     monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./futurethingbg.png");
+  background-color: #fff3d4;
   background-size: cover;
-  color: #fff;
+  color: black;;
 }
 
 html,
@@ -26,11 +25,11 @@ body {
 a {
   text-decoration: none;
   font-weight: 700;
-  color: #fff;
+  color: #FF4521;
 }
 
 a:hover {
-  color: #eb5757;
+  color: #FF4521;
 }
 
 .app {
@@ -52,13 +51,19 @@ footer {
 
 /* Typography */
 * H1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rustica", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 56px;
   line-height: 64px;
   text-align: left;
-  color: #fff;
+  text-transform: uppercase;
+  color: #FF4521;
+}
+
+* H2 {
+  color: #FF4521;
+  font-weight: 600;
 }
 
 /* Content Display*/
@@ -102,7 +107,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 
-  border: 2px solid white;
+  border: 2px solid black;
   border-bottom: 0px;
 }
 
@@ -116,7 +121,7 @@ footer {
 }
 
 .promptShuffle {
-  border-left: 2px solid white;
+  border-left: 2px solid black;
   padding: 8px 16px 8px 16px;
 
   font-family: "Poppins", sans-serif;
@@ -124,16 +129,17 @@ footer {
   font-weight: normal;
   font-size: 24px;
   line-height: 32px;
-  color: #fff;
+  color: black;
 }
 
 .promptShuffle:hover {
-  background: #594cec;
+  background: #FF4521;
+  color: #fff;
 }
 
 .promptBox {
   width: 700px;
-  border: 2px solid white;
+  border: 2px solid black;
   padding: 16px;
 }
 
@@ -143,11 +149,11 @@ footer {
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
-  color: #fff;
+  color: black;
 }
 
 .prompttext span {
-  text-decoration: underline solid #eb5757;
+  text-decoration: underline solid #FF4521;
 }
 
 /* Footer */
